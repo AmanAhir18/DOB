@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Age and Time Calculator</title>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="inputs-wrapper">
+            <input type="date" id="date-input">
+            <button onclick="startAgeTimer()">Start</button>
+            <button onclick="stopAgeTimer()">Stop</button>
+        </div>
+        <div class="outputs-wrapper">
+            <div>
+                <span id="years">-</span>
+                <p>Years</p>
+            </div>
+            <div>
+                <span id="months">-</span>
+                <p>Months</p>
+            </div>
+            <div>
+                <span id="days">-</span>
+                <p>Days</p>
+            </div>
+            <div>
+                <span id="hours">-</span>
+                <p>Hours</p>
+            </div>
+            <div>
+                <span id="minutes">-</span>
+                <p>Minutes</p>
+            </div>
+            <div>
+                <span id="seconds">-</span>
+                <p>Seconds</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
